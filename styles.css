@@ -4,26 +4,27 @@
 }
 
 body{
-    background: linear-gradient(to bottom, rgb(96, 48, 151), rgb(217, 230, 37));
-    /* background-size: cover; */
-    /* background-repeat: cover; */
+    height: 730px;
+    background: linear-gradient(to bottom, rgb(192, 178, 209), rgb(115, 118, 75));
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1{
-    margin: 0.65vw;
-    padding: 0.65vw;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 36px;
     font-weight: 600;
 }
 
 /* Left Div (Code Area) */
 .left-div{
-    width: 40vw;
+    width: 40%;
     float: left;
     color: white;
 }
 .left-div pre{
-    font-size: 1.3vw;
+    font-size: 20px;
     background-color: transparent;
     border: none;
     color: white;
@@ -36,19 +37,19 @@ h1{
     color: white;
 }
 .right-div pre{
-    font-size: 1.1vw;
+    font-size: 17px;
     background-color: transparent;
     border: none;
     color: white;
 }
 
 input{
-    width: 5vw;
+    width: 100px;
 }
 /* Pointer */
 .shift-pointer{
     width: 100%;
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: 600;
     border: none;
 }
@@ -56,33 +57,33 @@ input{
 /* Nodes */
 .visualizer{
     float: right;
-    margin-right: 0.65px;
+    margin-right: 10px;
     width: 59%;
     height: 300px;
     color: white;
 }
 .btn{
     background: linear-gradient(to bottom, rgb(139, 101, 35), rgb(188, 127, 22));
-    font-size: 1vw;
+    font-size: 12px;
     font-weight: 600;
     float: left;
-    border-radius: 2.5vw;
-    padding: 0.65vw;
-    margin-left: 17vw;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 270px;
 }
 .show{
-    margin-bottom: 10vw;
+    margin-bottom: 100px;
 }
 .val{
-    border: 0.25vw solid yellow;
-    padding: 0.65vw 0.9vw 0 0.9vw;
+    border: 4px solid yellow;
+    padding: 10px 15px 0 15px;
     float: left;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
 }
 .addr{
-    border: 0.25vw solid yellow;
-    padding: 0.65vw 0.65vw 0 0.65vw;
+    border: 4px solid yellow;
+    padding: 10px 10px 0 10px;
     float: left;
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
@@ -93,7 +94,7 @@ input{
 #value4,
 #value5{
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 20px;
     font-weight: bolder;
     /* color: aqua; */
 }
@@ -104,7 +105,7 @@ input{
 #address5,
 #address6{
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 20px;
     font-weight: bolder;
     color: aqua;
 }
@@ -115,9 +116,9 @@ input{
 .ptr5{
     float: left;
     font-weight: bolder;
-    font-size: 2.5vw;
-    margin-left: 0.65vw;
-    margin-right: 0.65vw;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .animation{
     color: red;
